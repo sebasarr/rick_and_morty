@@ -1,0 +1,38 @@
+
+.container {
+    border: 1px solid greenyellow;
+    background-color: rgb(73, 112, 87);
+    border-radius: 10px;
+    width: 140px;
+    padding: 10px;
+    box-shadow: 0 0 10px;
+}
+
+.image {
+    width: 140px;
+}
+
+.bobton {
+    /* border: 10px solid greenyellow; */
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.bobton button {
+    background-color: rgb(133, 40, 71);
+    color: blueviolet;
+    border: 0px;
+    border-radius: 2px;
+}
+
+.cletras {
+    text-align: center;
+    padding: 1px;
+}
+
+.cletras h2 {
+    margin: 10px;
+    font-size: 19px;
+    color: darkslategray;
+}

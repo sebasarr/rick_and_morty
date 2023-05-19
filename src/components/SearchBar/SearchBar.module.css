@@ -1,0 +1,22 @@
+.barra {
+    display: inline-flex;
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+.barra input {
+    border-radius: 5px;
+    height: 22px;
+}
+
+.barra button {
+    border-radius: 5px;
+    height: 22px;
+    background-color: darkslategrey;
+    color: white;
+    font-size: 10px;
+    border: 0px;
+    padding: 10 10 101px;
+} 

@@ -1,8 +1,8 @@
-import Card from './Card';
+import Card from '../Card/Card.jsx';
 
 export default function Cards({ characters }) {
    return (
-      <div>
+      <div style={{display:"flex" , justifyContent: "space-between"}}>
          {
             characters.map(({ id, name, status, species,
             gender, origin, image }) => {
@@ -19,7 +19,7 @@ export default function Cards({ characters }) {
                   onClose={() => alert('Emulamos que se cierra la card')}
                />
                )
-         })
+         }) 
       }
    </div>
    )
