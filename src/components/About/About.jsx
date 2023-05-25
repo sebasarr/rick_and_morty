@@ -1,8 +1,8 @@
 const About = () => {
     return(
         <div>
-            <h1>working</h1>
-            <p>laburando x2</p>
+            <h1>Que hoy seas mejor que ayer y mañana mejor que hoy </h1>
+            <p>x7</p>
         </div>
     )
 

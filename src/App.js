@@ -52,7 +52,7 @@ function App() {
             // location.pathname !== '/'
             // ? <Nav onSearch={onSearch}/>
             // : null
-            location.pathname !== '/' && <Nav onSearch={onSearch}/>
+            location.pathname !== '/' && <Nav onSearch={onSearch} setAccess={setAccess}/>
             
          }
          <Routes>
